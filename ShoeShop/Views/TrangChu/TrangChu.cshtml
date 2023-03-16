@@ -1,0 +1,64 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<head>
+    <title>Trang Chu</title>
+    <link href="~/Theme/css/banner_home.css" rel="stylesheet" type="text/css" />
+    <link href="~/Theme/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+</head>
+<!--image slider start-->
+<body>
+
+    <div class="banner">
+        <div class="banner__slide">
+            <!-- radio button -->
+            <input class="banner__slide-input" type="radio" name="radio-btn" id="radio1">
+            <input class="banner__slide-input" type="radio" name="radio-btn" id="radio2">
+            <input class="banner__slide-input" type="radio" name="radio-btn" id="radio3">
+            <!-- slide img -->
+            <div class="banner__img first">
+                <img src="~/Theme/images/giay-cho-nguoi-chan-to-3.png" />
+            </div>
+            <div class="banner__img">
+                <img src="~/Theme/images/pexels-pixabay-267301.png" />
+            </div>
+            <div class="banner__img">
+                <img src="~/Theme/images/pexels-shane-aldendorff-786003.png" />
+            </div>
+
+            <!-- automatic navigation start -->
+            <div class="banner__navigation">
+                <div class="navigation__auto-btn1"></div>
+                <div class="navigation__auto-btn2"></div>
+                <div class="navigation__auto-btn3"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="matual__btn"></label>
+            <label for="radio2" class="matual__btn"></label>
+            <label for="radio3" class="matual__btn"></label>
+        </div>
+    </div>
+    <div small-container>
+        <h2 class="title">Sản phẩm nổi bật</h2>
+    </div>
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+</body>
+<!--image slider end-->

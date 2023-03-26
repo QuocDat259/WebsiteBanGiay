@@ -10,7 +10,7 @@ using ShoeShop.Models;
 using PagedList;
 namespace ShoeShop.Controllers
 {
-    public class tb_AdvController : Controller
+    public class GiayController : Controller
     {
         private ShoeShopEntities db = new ShoeShopEntities();
 

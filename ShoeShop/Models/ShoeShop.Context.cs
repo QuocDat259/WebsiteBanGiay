@@ -26,5 +26,6 @@ namespace ShoeShop.Models
         }
     
         public virtual DbSet<tb_Adv> tb_Adv { get; set; }
+        public virtual DbSet<User> User { get; set; }
     }
 }

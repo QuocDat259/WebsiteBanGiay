@@ -139,8 +139,9 @@
     <Compile Include="Controllers\DiaChiController.cs" />
     <Compile Include="Controllers\GioiThieuController.cs" />
     <Compile Include="Controllers\PhuKienGiayController.cs" />
-    <Compile Include="Controllers\tb_AdvController.cs" />
+    <Compile Include="Controllers\GiayController.cs" />
     <Compile Include="Controllers\TrangChuController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -162,6 +163,10 @@
     <Compile Include="Models\tb_Adv.cs">
       <DependentUpon>ShoeShop.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\User.cs">
+      <DependentUpon>ShoeShop.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -296,11 +301,12 @@
     <Content Include="Views\GioiThieu\GioiThieu.cshtml" />
     <Content Include="Views\PhuKienGiay\PhuKienGiay.cshtml" />
     <Content Include="Web.config" />
-    <Content Include="Views\tb_Adv\Create.cshtml" />
-    <Content Include="Views\tb_Adv\Delete.cshtml" />
-    <Content Include="Views\tb_Adv\Details.cshtml" />
-    <Content Include="Views\tb_Adv\Edit.cshtml" />
-    <Content Include="Views\tb_Adv\giay.cshtml" />
+    <Content Include="Views\Giay\Create.cshtml" />
+    <Content Include="Views\Giay\Delete.cshtml" />
+    <Content Include="Views\Giay\Details.cshtml" />
+    <Content Include="Views\Giay\Edit.cshtml" />
+    <Content Include="Views\Giay\giay.cshtml" />
+    <Content Include="Views\User\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

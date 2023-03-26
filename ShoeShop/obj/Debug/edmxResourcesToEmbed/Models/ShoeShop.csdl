@@ -14,5 +14,16 @@
   </EntityType>
   <EntityContainer Name="ShoeShopEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="tb_Adv" EntityType="Self.tb_Adv" />
+    <EntitySet Name="User" EntityType="ShoeShopModel.User" />
   </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="idUsers" />
+    </Key>
+    <Property Name="idUsers" Type="Int32" Nullable="false" />
+    <Property Name="FistName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

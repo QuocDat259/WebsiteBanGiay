@@ -1,0 +1,80 @@
+﻿@model PagedList.IPagedList<ShoeShop.Models.tb_Adv>
+@*@model PagedList.IPagedList<ShoeShop.Models.tb_Adv>*@
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link href="~/Theme/css/style.css" rel="stylesheet" />
+    <link href="~/Content/PagedList.css" rel="stylesheet" />
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        @*<th>
+                STT
+            </th>*@
+        <th>
+            Tên giày
+        </th>
+        <th>
+            Hãng giày
+        </th>
+        <th>
+            Gia
+        </th>
+        <th>
+            Năm sản xuất
+        </th>
+        <th>
+            Giới tính
+        </th>
+        <th>
+            Hình ảnh
+        </th>
+        <th>Sửa|Xem|Xóa</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Published)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                <img src="~/Theme/images/HangGiay/Nike/@item.img" style="height: 200px; width:200px;" />
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<br />
+<h4 style="text-align:center">@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount</h4>
+<div class="pagination" style="margin: 0 auto; display: flex; justify-content: center;">
+    @Html.PagedListPager(Model, page => Url.Action("giay", new { page }))
+</div>

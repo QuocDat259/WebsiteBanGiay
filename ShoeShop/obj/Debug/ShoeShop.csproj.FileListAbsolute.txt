@@ -1,3 +1,5 @@
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.csproj.AssemblyReference.cache
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.csproj.CoreCompileInputs.cache
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\ShoeShop.dll.config
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\ShoeShop.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\ShoeShop.pdb
@@ -51,9 +53,13 @@ D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\roslyn\vbc.rsp
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\roslyn\VBCSCompiler.exe
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\roslyn\VBCSCompiler.exe.config
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Antlr3.Runtime.dll
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\EntityFramework.dll
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\EntityFramework.SqlServer.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Microsoft.Web.Infrastructure.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Newtonsoft.Json.dll
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\PagedList.dll
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\PagedList.Mvc.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Helpers.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Mvc.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Optimization.dll
@@ -62,6 +68,10 @@ D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.WebPages.Deployment.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.WebPages.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.WebPages.Razor.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\WebGrease.dll
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\EntityFramework.xml
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\EntityFramework.SqlServer.xml
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\PagedList.xml
+D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\PagedList.Mvc.xml
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Helpers.xml
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Mvc.xml
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.Optimization.xml
@@ -72,8 +82,6 @@ D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\System.Web.WebPages.Razor.xml
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Newtonsoft.Json.xml
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Antlr3.Runtime.pdb
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.csproj.AssemblyReference.cache
-D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.csproj.CoreCompileInputs.cache
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.csproj.CopyComplete
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.dll
 D:\Web\WebsiteBanGiay\ShoeShop\ShoeShop\obj\Debug\ShoeShop.pdb
